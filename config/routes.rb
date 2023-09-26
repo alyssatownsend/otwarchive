@@ -633,6 +633,7 @@ Otwarchive::Application.routes.draw do
   get 'menu/search' => 'menu#search'
   get 'menu/about' => 'menu#about'
 
+
   # The priority is based upon order of creation:
   # first created -> highest priority.
   root to: "home#index"
